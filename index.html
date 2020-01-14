@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+  			margin: 0;
+  			padding: 0;
+  			box-sizing: border-box;
+		}
+
+		body {
+  				width: 100%;
+  				height: 100vh;
+				display: flex;
+				position: relative;
+				background: #eeeeec;
+  				align-items: center;
+				flex-direction: column;
+				justify-content: center;
+	
+				font-family: 'Open Sans', sans-serif;
+				font-size: 100%;
+		}
+
+		/* .profile{
+			width: 300px;
+			height: 300px;
+		} */
+		.social-icons {
+		display: flex;
+		margin-top: 1.2em;
+		justify-content: space-between;
+		
+		.icon {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			a {
+				color: #fff;
+				width: 60px;
+				height: 60px;
+				font-size: 28px;
+				line-height: 60px;
+				text-align: center;
+				border-radius: 30px;
+				box-shadow: $shadow;
+			}
+		.profile {
+		margin-top: 2.2em;
+		position: relative;
+		
+		&:after {
+			width: 100%;
+			height: 1px;
+			content: ' ';
+			display: block;
+			margin-top: 1.3em;
+			background: #E9EFF6;
+		}
+		
+		.check {
+			position: absolute;
+			right: 5em;
+			bottom: 12.7em;
+			i {
+				color: #fff;
+				width: 20px;
+				height: 20px;
+				font-size: 12px;
+				line-height: 20px;
+				text-align: center;
+				border-radius: 100%;
+				background: $purple-gradient;	
+			}
+		}
+
+		.thumbnail {
+			width: 124px;
+			height: 124px;
+			display: flex;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 1.5em;
+			border-radius: 100%;
+			box-shadow: $shadow;
+
+		.name {
+			color: #2D354A;
+			font-size: 24px;
+			font-weight: 600;
+			text-align: center;
+		}
+		
+		.title {
+			color: #7C8097;
+			font-size: .75em;
+			font-weight: 300;
+			text-align: center;
+			padding-top: .5em;
+			padding-bottom: .7em;
+			letter-spacing: 1.5px;
+			text-transform: uppercase;
+		}
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="top-icons">
+			<i class="fas fa-long-arrow-alt-left"></i>
+			<i class="fas fa-ellipsis-v"></i>
+			<i class="far fa-heart"></i>
+		</div>
+	
+		<div class="profile">
+			<img src="/Users/liu640/Downloads/test.jpg" class="thumbnail">
+			<div class="check">
+				<i class="fas fa-check"></i>
+			</div>
+			<h3 class="name">Eric Liu</h3>
+			<p class="title">HTML CSS Practice</p>
+			<p class="description"> more and more better more and more strong</p>
+			<button type="button" class="btn">Hire Me</button>
+		</div>
+	
+		<div class="social-icons">
+			<div class="icon">
+				<a href="#" target="_self"><i class="fab fa-apple"></i></a>  
+				<h4>12.8k</h4>
+				<p>Followers</p>
+			</div>
+		
+			<div class="icon">
+				<a href="#"><<i class="fa fa-camera-retro"></i> fa-camera-retro</a>
+				<h4>12.8k</h4>
+				<p>Followers</p>
+			</div>
+		
+			<div class="icon">
+				<a href="#"><i class="fas fa-car"></i>fas fa-car</a>
+				<h4>12.8k</h4>
+				<p>Followers</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="concept">concept by 
+		<a href="https://dribbble.com/shots/4346772-Profile-Card" target="_blank">
+			<i class="fab fa-dribbble"></i> Vijay Verma
+		</a>
+	</div>
+	<i class="fa fa-thumbs-o-up"></i>
+</body>
+</html>
